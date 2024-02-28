@@ -60,10 +60,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid grey; /* Substituí o border por border-top */
+    border-top: 1px solid grey;
     height: 20px;
 }
 
-.fim p, .fim h1 {
+.fim p, .fim h2 {
     margin: 0 10px;
 }
