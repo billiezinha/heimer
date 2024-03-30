@@ -6,11 +6,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.tudo a{
+    text-decoration: none;
+}
+
 .inicio {
     color: rgb(0, 146, 146);
     margin: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .texto, .botao {
@@ -63,6 +68,10 @@ h1 {
     align-items: center;
     border-top: 1px solid grey;
     height: 20px;
+}
+
+.fim a {
+    color: red;
 }
 
 .fim p, .fim h2 {
