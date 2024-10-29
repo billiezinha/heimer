@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(238, 238, 149);
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.texto, .botao {
+.texto {
     font-size: 12px;
     border: 25px solid rgb(0, 255, 170);
     border-radius: 20px;
@@ -27,15 +27,28 @@ body {
     align-items: center;
     font-size: 14px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .botao {
-    width: 300px;
+    width: 350px;
     height: 65px;
     margin: 10px;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 170);
+    border: 2px solid rgb(0, 255, 170);
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: rgb(0, 200, 150);
+    border-color: rgb(0, 200, 150);
 }
 
 .icone {
